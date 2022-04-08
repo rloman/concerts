@@ -12,6 +12,14 @@ public class Car {
         this.licensePlate = licensePlate;
     }
 
+    // fails, want de computer weet dan niet welke je bedoelt
+    /*
+    public Car(String someOtherString) {
+
+    }
+
+     */
+
     public String getLicensePlate() {
         return licensePlate;
     }

@@ -1,4 +1,4 @@
-package nl.youngcapital.concerts;
+package nl.youngcapital.concerts.statics;
 
 import nl.youngcapital.concerts.model.Instrument;
 import nl.youngcapital.concerts.model.Piano;

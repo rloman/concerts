@@ -6,6 +6,7 @@ public class Application {
 
         Televisie samsungTV = new SamsungTV();
         Televisie sonyTV = new SonyTV();
+
         Televisie[] televisies = {samsungTV, sonyTV};
         TelevisieTester.testTvs(televisies);
     }

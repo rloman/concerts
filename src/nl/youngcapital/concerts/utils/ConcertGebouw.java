@@ -12,6 +12,7 @@ public final class ConcertGebouw {
         }
     }
 
+    // prevent instantiation
     private ConcertGebouw() {
 
     }

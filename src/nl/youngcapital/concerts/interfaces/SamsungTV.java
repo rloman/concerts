@@ -6,7 +6,7 @@ import java.util.Iterator;
 
 /*
 Wetten:
-Je kunt ervan 1 class in Java
+Je kunt erven van max. 1 class in Java
 Je kunt meerdere interfaces implementeren
  */
 public class SamsungTV implements Televisie {
