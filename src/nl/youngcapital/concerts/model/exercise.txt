@@ -1,0 +1,11 @@
+1. Maak drie classes aan die erven van Instrument
+
+2. Maak een package aan zoals gezien (nl.youngcapital.concert)
+    Maak een sub-package aan met de naam 'model'
+    Zet de instrument class en zijn sub-classes in model
+
+3. Run een Application met een main methode die drie instanties
+    maakt van de subclasses van Instrument en run de play method.
+    d.w.z hij drukt zijn naam af.
+    Gebruik hiervoor dus ook getters en setters.
+
