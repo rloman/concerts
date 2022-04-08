@@ -21,4 +21,8 @@ public class Piano extends Instrument {
     public void setMerk(String merk) {
         this.merk = merk;
     }
+
+    public void play() {
+        System.out.println("Playing the piano (Beethoven)");
+    }
 }

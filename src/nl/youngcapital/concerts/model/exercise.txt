@@ -9,3 +9,17 @@
     d.w.z hij drukt zijn naam af.
     Gebruik hiervoor dus ook getters en setters.
 
+    =============================
+
+
+1. Voeg een abstracte METHOD toe met de naam 'play' in de class Instrument.
+    Los de dan onstane compile error op.
+    (in de class Instrument)
+
+2. Er zijn dan ook compile errors in de subclasses
+    (tenzij die al een play hadden)
+3. Roep in de Application.main de play aan via de voorgaande oefening.
+
+
+
+

@@ -11,4 +11,9 @@ public class Guitar extends Instrument {
     public void setVolume(int volume) {
         this.volume = volume;
     }
+
+    @Override
+    public void play() {
+        System.out.println("Playing Guitar with Mark Knopfler");
+    }
 }

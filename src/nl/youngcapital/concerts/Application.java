@@ -1,10 +1,8 @@
 package nl.youngcapital.concerts;
 
-import nl.youngcapital.concerts.model.Instrument;
-import nl.youngcapital.concerts.model.Piano;
+import nl.youngcapital.concerts.model.*;
 
 public class Application {
-
 
     public static void main(String[] args) {
 
@@ -27,21 +25,24 @@ public class Application {
         // vout
 //        int age = 28;
 
-        Instrument instrument = new Instrument();
-        instrument.setName("nl.youngcapital.concerts.model.Piano");
+        Instrument instrument = new Piano();
+        instrument.setName("Piano");
 
-        Instrument anderInstrument = new Instrument();
-        anderInstrument.setName("Drumstel");
+        Instrument anderInstrument = new Guitar();
+        anderInstrument.setName("Guitar");
 
-        Instrument nogEenAndere = new Instrument();
-        nogEenAndere.setName("Saxofoon");
+
+
+        Instrument nogEenAndere = new SmallAltSax();
+        nogEenAndere.setName("Small alt Saxofoon");
 
         instrument.play();
         anderInstrument.play();
+        System.out.println("Einde normale instrumenten");
         nogEenAndere.play();
 
         Piano p = new Piano();
-        p.setName("nl.youngcapital.concerts.model.Piano");
+        p.setName("Piano");
         p.setMerk("Yamaha");
         p.setAantalSnaren(6);
 

@@ -1,14 +1,11 @@
 package nl.youngcapital.concerts.model;
 
-public class Instrument {
+public abstract class Instrument {
+
+    public static int counter;
 
     // field (attribute, property)
     private String name;
-
-    // instance method
-    public void play() {
-        System.out.println("Playing instrument with name: " + name);
-    }
 
     public String getName() {
         return name;
@@ -17,4 +14,6 @@ public class Instrument {
     public void setName(String name) {
         this.name = name;
     }
+
+    public abstract void play();
 }
