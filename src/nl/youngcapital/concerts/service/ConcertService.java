@@ -10,11 +10,8 @@ public class ConcertService {
     public Instrument[] geefAlleInstrumenten() {
 
         Instrument instrument = new Piano();
-        Instrument.counter++;
         Instrument anderInstrument = new Guitar();
-        Instrument.counter++;
         Instrument nogEenAndere = new SmallAltSax();
-        Instrument.counter++;
 
         Instrument[] instrumenten = {instrument, anderInstrument, nogEenAndere};
 

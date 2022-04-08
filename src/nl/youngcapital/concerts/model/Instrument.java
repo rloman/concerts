@@ -7,6 +7,10 @@ public abstract class Instrument {
     // field (attribute, property)
     private String name;
 
+    public Instrument() {
+        counter++;
+    }
+
     public String getName() {
         return name;
     }

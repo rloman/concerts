@@ -1,6 +1,7 @@
 package nl.youngcapital.concerts;
 
 import nl.youngcapital.concerts.model.Instrument;
+import nl.youngcapital.concerts.model.Piano;
 import nl.youngcapital.concerts.service.ConcertService;
 import nl.youngcapital.concerts.utils.ConcertGebouw;
 import nl.youngcapital.concerts.utils.Constants;
@@ -26,10 +27,28 @@ public class ConcertApplication {
         double totalPrice = Instrument.counter * 10 * Constants.BTW_PERCENTAGE;
         System.out.println(totalPrice);
 
-        // Exercise
+        // dit kan maar mooi is anders
+        Instrument i = new Piano();
+        System.out.println(i.counter);
+
+
+        // gebruik final in context met een locale variable
+        final int age = 53;
+//        age++; // vout
+
+
+
+        // Exercise (gedaan)
         /*
         Maak playAllInstruments static
         Maak een label voor de bedrijfsnaam en print die af
          */
+
+        // Exercise
+        /*
+            1). Maak een default constructor in Instrument
+            2). Tel dmv die default constructor het aantal gemaakt Instrumenten
+         */
+
     }
 }

@@ -2,12 +2,17 @@ package nl.youngcapital.concerts.utils;
 
 import nl.youngcapital.concerts.model.Instrument;
 
-public class ConcertGebouw {
+// This is a utility class
+public final class ConcertGebouw {
 
     public static void playAllInstruments(Instrument[] instrumenten) {
 
         for (Instrument instrument : instrumenten) {
             instrument.play();
         }
+    }
+
+    private ConcertGebouw() {
+
     }
 }

@@ -1,9 +1,10 @@
 package nl.youngcapital.concerts.model;
 
-public class Saxophone extends Instrument {
+// You cannot extend from a final class
+public /*final*/ class Saxophone extends Instrument {
 
-    @Override
-    public void play() {
+    @Override// a final method cannot be overridden
+    public /*final*/ void play() {
         System.out.println("Playing Saxophone with Candy Dulfer");
     }
 }
