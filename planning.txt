@@ -1,0 +1,4 @@
+welke app bouwen jullie?
+niam en =>
+uml
+sql
