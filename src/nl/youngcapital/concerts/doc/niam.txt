@@ -1,0 +1,71 @@
+Er is een klant met id 5
+
+De klant met id 5 heeft voornaam Raymond
+De klant met id 5 heeft voornaam Frans
+
+Kan niet: Dus er is een uniciteit over id met voornaam, dus er kan maar
+1x een klant zijn met id:5
+
+== ander verhaal
+De klant met id 5 heeft voornaam Raymond
+De klant met id 6 heeft voornaam Raymond
+
+Dus voornaam kan vaker dan 1x voorkomen
+
+
+
+Praktijk sql met mysql
+
+zorg ervoor dat de mysql server draait
+- d.w.z. lamp-stack of mysqld (service) op Linux
+
+.Tonen van de aanwezige databases
+in mysql
+mysql> show databases;
+
+.Create a DB
+mysql> create bezorgingsdienst;
+
+.use
+mysql> use bezorgingsdienst;
+
+.show tables
+show tables;
+
+.show the structure of the table (klant)
+describe klant;
+
+# voorbeeld van een insert
+insert into klant(voornaam, achternaam, adres) values ('Willem', 'de Vries' ,'De Fazant 22');
+ophalen met:
+
+select id, voornaam from klant;
+
+select distinct voornaam from klant;
+
+select id, lastname from klant where voornaam='jan' or lastname="pietersen';
+
+Result: voorbeeld
+1, pietersen
+2, loman
+3, van ebscheuten
+4, van putten
+5, pietersen (die dan bijvoorbeeld voornaam Marietje heeft)
+
+
+select voornaam, achternaam from klant where adres='De Fazant 22';
+select voornaam, achternaam from klant where adres like '%Fazant%';
+
+// updaten
+update klant set adres='De Parelduiker 10' where id=3;
+
+// delete
+delete from klant where id='3';
+
+# niet doen, haalt alle klanten weg. Waarom laat je het dan zien? Zodat je het niet per ongeluk doet! :-)
+delete from klant; 
+
+
+
+
+
