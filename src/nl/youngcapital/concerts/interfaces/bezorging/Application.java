@@ -9,11 +9,8 @@ public class Application {
 		
 		bezorger.bezorgAlleRestaurants();
 		
-		// vout
+		// vout want een interface kun je niet met new instantieren
 //		bezorger.add(new Restaurant());
-		
-		
-
 	}
 
 }

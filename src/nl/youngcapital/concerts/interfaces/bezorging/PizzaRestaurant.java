@@ -16,5 +16,4 @@ public class PizzaRestaurant implements Restaurant {
 	public String getAddress() {
 		return "Kerkstraat 44";
 	}
-
 }

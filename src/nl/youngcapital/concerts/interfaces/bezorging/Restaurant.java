@@ -7,5 +7,4 @@ public interface Restaurant {
 	String getName();
 	int maximaalAantalBezoekers();
 	String getAddress();
-
 }
